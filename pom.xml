@@ -35,6 +35,32 @@
 	</dependencies>
 	<build>
 		<plugins>
+			<plugin>
+            <groupId>io.snyk</groupId>
+            <artifactId>snyk-maven-plugin</artifactId>
+            <version>1.2.5</version>
+            <executions>
+                <execution>
+                    <id>snyk-test</id>
+                    <phase>test</phase>
+                    <goals>
+                        <goal>test</goal>
+                    </goals>
+                </execution>
+                <execution>
+                    <id>snyk-monitor</id>
+                    <phase>install</phase>
+                    <goals>
+                        <goal>monitor</goal>
+                    </goals>
+                </execution>
+            </executions>
+            <configuration>
+                <apiToken>c1eaee33-4cf1-427d-910a-254bd863bcc4</apiToken>
+                <failOnSeverity>medium</failOnSeverity>
+                <org></org>
+            </configuration>
+        </plugin>
 			<plugin><!-- Include if you want to make an executable jar[FAT JAR which 
 					includes all dependencies along with sprinboot loader] that you can run on 
 					command line using java -jar NAME -->
