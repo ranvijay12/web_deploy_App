@@ -23,9 +23,9 @@
 
 	 <distributionManagement>
         <snapshotRepository>
-            <id>artifactory</id>
-            <name>artifactory</name>
-            <url>${artifactory_url}</url>
+            <id>central</id>
+            <name>webdeploy1.0</name>
+            <url>http://18.212.222.4:32100/artifactory/libs-release-local</url>
         </snapshotRepository>
     </distributionManagement>
 	
