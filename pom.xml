@@ -21,6 +21,14 @@
 			1.8 when building on commandline -->
 	</properties>
 
+	 <distributionManagement>
+        <snapshotRepository>
+            <id>artifactory</id>
+            <name>artifactory</name>
+            <url>${artifactory_url}</url>
+        </snapshotRepository>
+    </distributionManagement>
+	
 	<dependencies>
 		<!-- Add typical dependencies for a web application -->
 		<!-- Adds Tomcat and Spring MVC, along others -->
