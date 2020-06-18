@@ -24,7 +24,7 @@
 	 <distributionManagement>
            <repository>
 		<id>central</id>
-		<name>project1-releases</name>
+		<name>jfrog-7b6c44b689-wr57m-releases</name>
 		<url>http://54.160.180.230:32100/artifactory/libs-release-local</url>
  	   </repository>
 	   <snapshotRepository>
@@ -34,22 +34,6 @@
 	  </snapshotRepository>	 
     </distributionManagement>
 
-<repositories>
-	<repository>
-	<snapshots>
-	<enabled>false</enabled>
-	</snapshots>
-	<id>central</id>
-	<name>libs-release</name>
-	<url>http://54.160.180.230:32100/artifactory/libs-release</url>
-	</repository>
-	<repository>
-	<snapshots />
-	<id>snapshots</id>
-	<name>libs-snapshot</name>
-	<url>http://54.160.180.230:32100/artifactory/libs-snapshot</url>
-	</repository>
-</repositories>
 
 	
 	<dependencies>
