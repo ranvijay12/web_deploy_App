@@ -20,13 +20,20 @@
 		<!-- Additionally, Please make sure that your JAVA_HOME is pointing to 
 			1.8 when building on commandline -->
 	</properties>	
+	
 	<distributionManagement>
     		<repository>
         		<id>central</id>
         		<name>jfrog-7b6c44b689-wr57m-releases</name>
         		<url>http://54.160.180.230:32100/artifactory/libs-release</url>
     		</repository>
+		<snapshotRepository>
+        		<id>snapshots</id>
+        		<name>jfrog-7b6c44b689-wr57m-snapshots</name>
+        		<url>http://54.160.180.230:32100/artifactory/libs-snapshot</url>
+    	   	</snapshotRepository>
 	</distributionManagement>
+	
     	<dependencies>
 		<!-- Add typical dependencies for a web application -->
 		<!-- Adds Tomcat and Spring MVC, along others -->
