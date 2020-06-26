@@ -4,7 +4,7 @@
 
 	<groupId>com.websystique.springboot</groupId>
 	<artifactId>Test1</artifactId>
-	<version>1.0.1</version>
+	<version>1.0.0</version>
 	<packaging>jar</packaging>
 
 	<name>SpringBootStandAloneExample</name>
