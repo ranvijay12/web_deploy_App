@@ -4,10 +4,11 @@
 
   <groupId>com.websystique.springboot</groupId>
 	<version>1.0.1</version>
+        <artifactId>Test-1</artifactId>
 	<packaging>jar</packaging>
 
 	<name>SpringBootStandAloneExample</name>
-
+  
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
