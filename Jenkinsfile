@@ -5,6 +5,7 @@ pipeline {
         stage('myStage'){
             steps {
                 sh 'ls -la' 
+                sh 'mvn clean install'
             }
         }
         stage('Build') {
