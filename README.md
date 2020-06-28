@@ -1,4 +1,3 @@
-This is a maven based project. Checking continues
-test...test1..
+This is a maven based project. 
+Checking with jenkins for pr and push event builds.
 
-Finally succeeding
